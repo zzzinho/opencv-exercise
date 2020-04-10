@@ -1,6 +1,11 @@
 [
 {
   "directory": "/Users/jeongjinho/vscode/opencv/build",
+  "command": "/usr/local/bin/g++-9   -isystem /usr/local/Cellar/opencv/4.2.0_3/include/opencv4  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/opencv.dir/chap4.cpp.o -c /Users/jeongjinho/vscode/opencv/chap4.cpp",
+  "file": "/Users/jeongjinho/vscode/opencv/chap4.cpp"
+},
+{
+  "directory": "/Users/jeongjinho/vscode/opencv/build",
   "command": "/usr/local/bin/g++-9   -isystem /usr/local/Cellar/opencv/4.2.0_3/include/opencv4  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/opencv.dir/hellocv.cpp.o -c /Users/jeongjinho/vscode/opencv/hellocv.cpp",
   "file": "/Users/jeongjinho/vscode/opencv/hellocv.cpp"
 },

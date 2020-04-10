@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/jeongjinho/vscode/opencv/chap4.cpp" "/Users/jeongjinho/vscode/opencv/build/CMakeFiles/opencv.dir/chap4.cpp.o"
   "/Users/jeongjinho/vscode/opencv/hellocv.cpp" "/Users/jeongjinho/vscode/opencv/build/CMakeFiles/opencv.dir/hellocv.cpp.o"
   "/Users/jeongjinho/vscode/opencv/video.cpp" "/Users/jeongjinho/vscode/opencv/build/CMakeFiles/opencv.dir/video.cpp.o"
   )
