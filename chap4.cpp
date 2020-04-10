@@ -34,17 +34,18 @@ void on_mouse(int event, int x, int y, int flags, void*);
 void on_level_change(int pos, void* userdata);
 void mask_setTo();
 void mask_copyTo();
-
+/*
 int main()
 {   
     //mask_setTo();
     mask_copyTo();
     return 0;
 }
+*/
 /*
 void on_mouse(int event, int x, int y, int flags, void*)
 {
-    switch(event){
+    switch(event){/
         case EVENT_LBUTTONDOWN:
             pt01d = Point(x,y);
             cout << "EVENT_LBUTTONDOWN: " << x << ", " << y << endl;

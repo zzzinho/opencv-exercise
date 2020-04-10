@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/opencv.dir/chap4.cpp.o"
+  "CMakeFiles/opencv.dir/chap5.cpp.o"
   "CMakeFiles/opencv.dir/hellocv.cpp.o"
   "CMakeFiles/opencv.dir/video.cpp.o"
   "opencv"
