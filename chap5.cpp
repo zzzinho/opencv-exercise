@@ -195,6 +195,7 @@ void histogram_equalization()
     waitKey();
     destroyAllWindows();
 }
+/*
 int main()
 {
     //brightness1();
@@ -208,3 +209,4 @@ int main()
     histogram_equalization();
     return 0;
 }
+*/
