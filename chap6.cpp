@@ -31,10 +31,11 @@ void arithmetic()
 
     waitKey();
 }
-
+/*
 int main()
 {
     arithmetic();
 
     return 0;
 }
+*/

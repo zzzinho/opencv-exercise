@@ -167,6 +167,87 @@ chap4.cpp.s:
 	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap4.cpp.s
 .PHONY : chap4.cpp.s
 
+chap5.o: chap5.cpp.o
+
+.PHONY : chap5.o
+
+# target to build an object file
+chap5.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap5.cpp.o
+.PHONY : chap5.cpp.o
+
+chap5.i: chap5.cpp.i
+
+.PHONY : chap5.i
+
+# target to preprocess a source file
+chap5.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap5.cpp.i
+.PHONY : chap5.cpp.i
+
+chap5.s: chap5.cpp.s
+
+.PHONY : chap5.s
+
+# target to generate assembly for a file
+chap5.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap5.cpp.s
+.PHONY : chap5.cpp.s
+
+chap6.o: chap6.cpp.o
+
+.PHONY : chap6.o
+
+# target to build an object file
+chap6.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap6.cpp.o
+.PHONY : chap6.cpp.o
+
+chap6.i: chap6.cpp.i
+
+.PHONY : chap6.i
+
+# target to preprocess a source file
+chap6.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap6.cpp.i
+.PHONY : chap6.cpp.i
+
+chap6.s: chap6.cpp.s
+
+.PHONY : chap6.s
+
+# target to generate assembly for a file
+chap6.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap6.cpp.s
+.PHONY : chap6.cpp.s
+
+chap7.o: chap7.cpp.o
+
+.PHONY : chap7.o
+
+# target to build an object file
+chap7.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap7.cpp.o
+.PHONY : chap7.cpp.o
+
+chap7.i: chap7.cpp.i
+
+.PHONY : chap7.i
+
+# target to preprocess a source file
+chap7.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap7.cpp.i
+.PHONY : chap7.cpp.i
+
+chap7.s: chap7.cpp.s
+
+.PHONY : chap7.s
+
+# target to generate assembly for a file
+chap7.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap7.cpp.s
+.PHONY : chap7.cpp.s
+
 hellocv.o: hellocv.cpp.o
 
 .PHONY : hellocv.o
@@ -233,6 +314,15 @@ help:
 	@echo "... chap4.o"
 	@echo "... chap4.i"
 	@echo "... chap4.s"
+	@echo "... chap5.o"
+	@echo "... chap5.i"
+	@echo "... chap5.s"
+	@echo "... chap6.o"
+	@echo "... chap6.i"
+	@echo "... chap6.s"
+	@echo "... chap7.o"
+	@echo "... chap7.i"
+	@echo "... chap7.s"
 	@echo "... hellocv.o"
 	@echo "... hellocv.i"
 	@echo "... hellocv.s"
