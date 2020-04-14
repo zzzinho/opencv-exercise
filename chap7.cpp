@@ -181,6 +181,7 @@ void filter_median()
     waitKey();
     destroyAllWindows();
 }
+/*
 int main()
 {
     //filter_embossing();
@@ -192,3 +193,4 @@ int main()
     filter_median();
     return 0;
 }
+*/
