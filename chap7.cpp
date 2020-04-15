@@ -154,7 +154,7 @@ void filter_bilateral()
 
 void filter_median()
 {
-    Mat src = imread("lenna.bmp", IMREAD_GRAYSCALE);
+    Mat src = imread("duck.jpeg");
 
     if(src.empty()){
         cerr << "image load error" << endl;

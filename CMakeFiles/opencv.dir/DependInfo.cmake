@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/jeongjinho/vscode/opencv/chap6.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap6.cpp.o"
   "/Users/jeongjinho/vscode/opencv/chap7.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap7.cpp.o"
   "/Users/jeongjinho/vscode/opencv/chap8.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap8.cpp.o"
+  "/Users/jeongjinho/vscode/opencv/chap9.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap9.cpp.o"
   "/Users/jeongjinho/vscode/opencv/hellocv.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/hellocv.cpp.o"
   "/Users/jeongjinho/vscode/opencv/video.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/video.cpp.o"
   )
