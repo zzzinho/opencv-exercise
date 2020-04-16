@@ -144,7 +144,7 @@ void hough_circles()
     waitKey();
     destroyAllWindows();   
 }
-
+/*
 int main()
 {
     //sobel_edge();
@@ -154,3 +154,4 @@ int main()
     hough_circles();
     return 0;
 }
+*/

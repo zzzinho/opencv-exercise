@@ -4,6 +4,7 @@
 using namespace std;
 using namespace cv;
 
+/*
 void affine_transform()
 {
     Mat src = imread("tekapo.bmp");
@@ -37,7 +38,7 @@ Mat src;
 Point2f srcQuad[4], dstQuad[4];
 
 void on_mouse(int event, int x, int y, int flags, void* userdata);
-/*
+
 int main()
 {
     src = imread("card.bmp");
@@ -55,7 +56,7 @@ int main()
 
     return 0;
 }
-*/
+
 void on_mouse(int event, int x, int y, int flags, void* userdata)
 {
     static int cnt = 0;
@@ -85,3 +86,4 @@ void on_mouse(int event, int x, int y, int flags, void* userdata)
         }
     }
 }
+*/

@@ -140,6 +140,33 @@ opencv/fast:
 	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/build
 .PHONY : opencv/fast
 
+chap10.o: chap10.cpp.o
+
+.PHONY : chap10.o
+
+# target to build an object file
+chap10.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap10.cpp.o
+.PHONY : chap10.cpp.o
+
+chap10.i: chap10.cpp.i
+
+.PHONY : chap10.i
+
+# target to preprocess a source file
+chap10.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap10.cpp.i
+.PHONY : chap10.cpp.i
+
+chap10.s: chap10.cpp.s
+
+.PHONY : chap10.s
+
+# target to generate assembly for a file
+chap10.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap10.cpp.s
+.PHONY : chap10.cpp.s
+
 chap4.o: chap4.cpp.o
 
 .PHONY : chap4.o
@@ -365,6 +392,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opencv"
+	@echo "... chap10.o"
+	@echo "... chap10.i"
+	@echo "... chap10.s"
 	@echo "... chap4.o"
 	@echo "... chap4.i"
 	@echo "... chap4.s"

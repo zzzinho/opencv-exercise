@@ -140,6 +140,33 @@ opencv/fast:
 	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/build
 .PHONY : opencv/fast
 
+chap10.o: chap10.cpp.o
+
+.PHONY : chap10.o
+
+# target to build an object file
+chap10.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap10.cpp.o
+.PHONY : chap10.cpp.o
+
+chap10.i: chap10.cpp.i
+
+.PHONY : chap10.i
+
+# target to preprocess a source file
+chap10.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap10.cpp.i
+.PHONY : chap10.cpp.i
+
+chap10.s: chap10.cpp.s
+
+.PHONY : chap10.s
+
+# target to generate assembly for a file
+chap10.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap10.cpp.s
+.PHONY : chap10.cpp.s
+
 chap4.o: chap4.cpp.o
 
 .PHONY : chap4.o
@@ -275,6 +302,33 @@ chap8.cpp.s:
 	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap8.cpp.s
 .PHONY : chap8.cpp.s
 
+chap9.o: chap9.cpp.o
+
+.PHONY : chap9.o
+
+# target to build an object file
+chap9.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap9.cpp.o
+.PHONY : chap9.cpp.o
+
+chap9.i: chap9.cpp.i
+
+.PHONY : chap9.i
+
+# target to preprocess a source file
+chap9.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap9.cpp.i
+.PHONY : chap9.cpp.i
+
+chap9.s: chap9.cpp.s
+
+.PHONY : chap9.s
+
+# target to generate assembly for a file
+chap9.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap9.cpp.s
+.PHONY : chap9.cpp.s
+
 hellocv.o: hellocv.cpp.o
 
 .PHONY : hellocv.o
@@ -338,6 +392,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opencv"
+	@echo "... chap10.o"
+	@echo "... chap10.i"
+	@echo "... chap10.s"
 	@echo "... chap4.o"
 	@echo "... chap4.i"
 	@echo "... chap4.s"
@@ -353,6 +410,9 @@ help:
 	@echo "... chap8.o"
 	@echo "... chap8.i"
 	@echo "... chap8.s"
+	@echo "... chap9.o"
+	@echo "... chap9.i"
+	@echo "... chap9.s"
 	@echo "... hellocv.o"
 	@echo "... hellocv.i"
 	@echo "... hellocv.s"
