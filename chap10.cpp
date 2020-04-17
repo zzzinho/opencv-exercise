@@ -71,44 +71,9 @@ void on_hue_changed(int, void*){
     imshow("detect", detect);
 }
 */
-void backProject()
-{
-    Mat ref, ref_ycrcb, mask;
-    ref = imread("ref.png", IMREAD_COLOR);
-    if(ref.empty()){
-        cerr << "image load error" << endl;
-        return ;
-    }
-    mask = imread("mask.bmp", IMREAD_GRAYSCALE);
-    cvtColor(ref, ref_ycrcb, COLOR_BGR2YCrCb);
 
-    Mat hist;
-    int channels[] = {1,2};
-    int cr_bins = 128, cb_bins = 128;
-    int histSize[] = {cr_bins, cb_bins};
-    float cr_range[] = {0, 256};
-    float cb_range[] = {0, 256};
-    const float* ranges[] = {cr_range, cb_range};
 
-    calcHist(&ref_ycrcb, 1, channels, mask, hist, 2, histSize, ranges);
-
-    Mat src, src_ycrcb;
-    src = imread("kids.png", IMREAD_COLOR);
-    if(src.empty()){
-        cerr << "kids image open error" << endl;
-        return ;
-    }
-    cvtColor(src, src_ycrcb, COLOR_BGR2YCrCb);
-
-    Mat backproj;
-    calcBackProject(&src_ycrcb, 1, channels, hist, backproj, ranges, 1, true);
-
-    imshow("src", src);
-    imshow("back Project", backproj);
-
-    waitKey();
-}
-
+/*
 int main()
 {
     //colorHistEqualize();
@@ -116,3 +81,4 @@ int main()
     backProject();
     return 0;
 }
+*/
