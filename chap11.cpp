@@ -111,6 +111,7 @@ void open_close()
     waitKey();
     destroyAllWindows();
 }
+/*
 int main()
 {
     //findROI();
@@ -119,3 +120,4 @@ int main()
     open_close();
     return 0;
 }
+*/
