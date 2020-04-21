@@ -138,6 +138,7 @@ void polygon()
     imshow("img",img);
     waitKey();
 }
+/*
 int main()
 {
     //labeling_stats();
@@ -146,3 +147,4 @@ int main()
     polygon();
     return 0;
 }
+*/

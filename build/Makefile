@@ -221,6 +221,33 @@ chap12.cpp.s:
 	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap12.cpp.s
 .PHONY : chap12.cpp.s
 
+chap13.o: chap13.cpp.o
+
+.PHONY : chap13.o
+
+# target to build an object file
+chap13.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap13.cpp.o
+.PHONY : chap13.cpp.o
+
+chap13.i: chap13.cpp.i
+
+.PHONY : chap13.i
+
+# target to preprocess a source file
+chap13.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap13.cpp.i
+.PHONY : chap13.cpp.i
+
+chap13.s: chap13.cpp.s
+
+.PHONY : chap13.s
+
+# target to generate assembly for a file
+chap13.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap13.cpp.s
+.PHONY : chap13.cpp.s
+
 chap4.o: chap4.cpp.o
 
 .PHONY : chap4.o
@@ -455,6 +482,9 @@ help:
 	@echo "... chap12.o"
 	@echo "... chap12.i"
 	@echo "... chap12.s"
+	@echo "... chap13.o"
+	@echo "... chap13.i"
+	@echo "... chap13.s"
 	@echo "... chap4.o"
 	@echo "... chap4.i"
 	@echo "... chap4.s"
