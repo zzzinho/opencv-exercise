@@ -165,6 +165,7 @@ void decode_qrcode()
         if(waitKey(1) == 27) break;
     }
 }
+/*
 int main()
 {
     //template_matching();
@@ -174,3 +175,4 @@ int main()
     decode_qrcode();
     return 0;
 }
+*/

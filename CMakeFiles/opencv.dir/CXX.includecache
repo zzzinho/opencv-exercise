@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeongjinho/vscode/opencv/chap13.cpp
+/Users/jeongjinho/vscode/opencv/chap14.cpp
 opencv2/opencv.hpp
 /Users/jeongjinho/vscode/opencv/opencv2/opencv.hpp
 iostream
--
-vector
 -
 
 /usr/local/Cellar/opencv/4.2.0_3/include/opencv4/opencv2/calib3d.hpp
