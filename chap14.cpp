@@ -245,6 +245,7 @@ void stitching()
 
     waitKey();
 }
+/*
 int main()
 {
     //corner_harris();
@@ -256,3 +257,4 @@ int main()
     stitching();
     return 0;
 }
+*/
