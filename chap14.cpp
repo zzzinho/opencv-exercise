@@ -1,5 +1,6 @@
 #include "opencv2/opencv.hpp"
 #include <iostream>
+#include <vector>
 
 using namespace std;
 using namespace cv;
@@ -216,6 +217,34 @@ void find_homography()
     destroyAllWindows();
 }
 
+void stitching()
+{
+    vector<Mat> imgs;
+
+    for(int i = 1; i <= 3; ++i){
+        Mat img = imread(format("img%d.jpg",i));
+        if(img.empty()){
+            cerr << "image" << i << " load Error" << endl;
+            return ;
+        }
+        imgs.push_back(img);
+    }
+
+    Ptr<Stitcher> stitcher = Stitcher::create();
+
+    Mat dst;
+    Stitcher::Status status = stitcher->stitch(imgs, dst);
+
+    if(status != Stitcher::Status::OK){
+        cerr << "Error on stitching" << endl;
+        return ;
+    }
+
+    imwrite("result.jpg", dst);
+    imshow("dst", dst);
+
+    waitKey();
+}
 int main()
 {
     //corner_harris();
@@ -223,6 +252,7 @@ int main()
     //detected_keypoints();
     //keypoint_matching();
     //good_matching();
-    find_homography();
+    //find_homography();
+    stitching();
     return 0;
 }
