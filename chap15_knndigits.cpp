@@ -4,7 +4,7 @@
 using namespace std;
 using namespace cv;
 using namespace cv::ml;
-
+/*
 Ptr<KNearest> train_knn();
 void on_mouse(int event, int x, int y, int flags, void* userdata);
 
@@ -87,3 +87,4 @@ void on_mouse(int event, int x, int y, int flags, void* userdata)
         imshow("img", img);
     }
 }
+*/
