@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/opencv.dir/chap12.cpp.o"
   "CMakeFiles/opencv.dir/chap13.cpp.o"
   "CMakeFiles/opencv.dir/chap14.cpp.o"
+  "CMakeFiles/opencv.dir/chap15_knnplane.cpp.o"
   "CMakeFiles/opencv.dir/chap4.cpp.o"
   "CMakeFiles/opencv.dir/chap5.cpp.o"
   "CMakeFiles/opencv.dir/chap6.cpp.o"
