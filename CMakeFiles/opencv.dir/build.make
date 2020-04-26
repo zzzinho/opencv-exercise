@@ -165,9 +165,22 @@ CMakeFiles/opencv.dir/chap15_knnplane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv.dir/chap15_knnplane.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeongjinho/vscode/opencv/chap15_knnplane.cpp -o CMakeFiles/opencv.dir/chap15_knnplane.cpp.s
 
+CMakeFiles/opencv.dir/chap15_svmdigits.cpp.o: CMakeFiles/opencv.dir/flags.make
+CMakeFiles/opencv.dir/chap15_svmdigits.cpp.o: chap15_svmdigits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/opencv.dir/chap15_svmdigits.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chap15_svmdigits.cpp.o -c /Users/jeongjinho/vscode/opencv/chap15_svmdigits.cpp
+
+CMakeFiles/opencv.dir/chap15_svmdigits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv.dir/chap15_svmdigits.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jeongjinho/vscode/opencv/chap15_svmdigits.cpp > CMakeFiles/opencv.dir/chap15_svmdigits.cpp.i
+
+CMakeFiles/opencv.dir/chap15_svmdigits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv.dir/chap15_svmdigits.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jeongjinho/vscode/opencv/chap15_svmdigits.cpp -o CMakeFiles/opencv.dir/chap15_svmdigits.cpp.s
+
 CMakeFiles/opencv.dir/chap15_svmplane.cpp.o: CMakeFiles/opencv.dir/flags.make
 CMakeFiles/opencv.dir/chap15_svmplane.cpp.o: chap15_svmplane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/opencv.dir/chap15_svmplane.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/opencv.dir/chap15_svmplane.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chap15_svmplane.cpp.o -c /Users/jeongjinho/vscode/opencv/chap15_svmplane.cpp
 
 CMakeFiles/opencv.dir/chap15_svmplane.cpp.i: cmake_force
@@ -180,7 +193,7 @@ CMakeFiles/opencv.dir/chap15_svmplane.cpp.s: cmake_force
 
 CMakeFiles/opencv.dir/chap4.cpp.o: CMakeFiles/opencv.dir/flags.make
 CMakeFiles/opencv.dir/chap4.cpp.o: chap4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/opencv.dir/chap4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/opencv.dir/chap4.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chap4.cpp.o -c /Users/jeongjinho/vscode/opencv/chap4.cpp
 
 CMakeFiles/opencv.dir/chap4.cpp.i: cmake_force
@@ -193,7 +206,7 @@ CMakeFiles/opencv.dir/chap4.cpp.s: cmake_force
 
 CMakeFiles/opencv.dir/chap5.cpp.o: CMakeFiles/opencv.dir/flags.make
 CMakeFiles/opencv.dir/chap5.cpp.o: chap5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/opencv.dir/chap5.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/opencv.dir/chap5.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chap5.cpp.o -c /Users/jeongjinho/vscode/opencv/chap5.cpp
 
 CMakeFiles/opencv.dir/chap5.cpp.i: cmake_force
@@ -206,7 +219,7 @@ CMakeFiles/opencv.dir/chap5.cpp.s: cmake_force
 
 CMakeFiles/opencv.dir/chap6.cpp.o: CMakeFiles/opencv.dir/flags.make
 CMakeFiles/opencv.dir/chap6.cpp.o: chap6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/opencv.dir/chap6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/opencv.dir/chap6.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chap6.cpp.o -c /Users/jeongjinho/vscode/opencv/chap6.cpp
 
 CMakeFiles/opencv.dir/chap6.cpp.i: cmake_force
@@ -219,7 +232,7 @@ CMakeFiles/opencv.dir/chap6.cpp.s: cmake_force
 
 CMakeFiles/opencv.dir/chap7.cpp.o: CMakeFiles/opencv.dir/flags.make
 CMakeFiles/opencv.dir/chap7.cpp.o: chap7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/opencv.dir/chap7.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/opencv.dir/chap7.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chap7.cpp.o -c /Users/jeongjinho/vscode/opencv/chap7.cpp
 
 CMakeFiles/opencv.dir/chap7.cpp.i: cmake_force
@@ -232,7 +245,7 @@ CMakeFiles/opencv.dir/chap7.cpp.s: cmake_force
 
 CMakeFiles/opencv.dir/chap8.cpp.o: CMakeFiles/opencv.dir/flags.make
 CMakeFiles/opencv.dir/chap8.cpp.o: chap8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/opencv.dir/chap8.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/opencv.dir/chap8.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chap8.cpp.o -c /Users/jeongjinho/vscode/opencv/chap8.cpp
 
 CMakeFiles/opencv.dir/chap8.cpp.i: cmake_force
@@ -245,7 +258,7 @@ CMakeFiles/opencv.dir/chap8.cpp.s: cmake_force
 
 CMakeFiles/opencv.dir/chap9.cpp.o: CMakeFiles/opencv.dir/flags.make
 CMakeFiles/opencv.dir/chap9.cpp.o: chap9.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/opencv.dir/chap9.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/opencv.dir/chap9.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chap9.cpp.o -c /Users/jeongjinho/vscode/opencv/chap9.cpp
 
 CMakeFiles/opencv.dir/chap9.cpp.i: cmake_force
@@ -258,7 +271,7 @@ CMakeFiles/opencv.dir/chap9.cpp.s: cmake_force
 
 CMakeFiles/opencv.dir/hellocv.cpp.o: CMakeFiles/opencv.dir/flags.make
 CMakeFiles/opencv.dir/hellocv.cpp.o: hellocv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/opencv.dir/hellocv.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/opencv.dir/hellocv.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/hellocv.cpp.o -c /Users/jeongjinho/vscode/opencv/hellocv.cpp
 
 CMakeFiles/opencv.dir/hellocv.cpp.i: cmake_force
@@ -271,7 +284,7 @@ CMakeFiles/opencv.dir/hellocv.cpp.s: cmake_force
 
 CMakeFiles/opencv.dir/video.cpp.o: CMakeFiles/opencv.dir/flags.make
 CMakeFiles/opencv.dir/video.cpp.o: video.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/opencv.dir/video.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/opencv.dir/video.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/video.cpp.o -c /Users/jeongjinho/vscode/opencv/video.cpp
 
 CMakeFiles/opencv.dir/video.cpp.i: cmake_force
@@ -291,6 +304,7 @@ opencv_OBJECTS = \
 "CMakeFiles/opencv.dir/chap14.cpp.o" \
 "CMakeFiles/opencv.dir/chap15_knndigits.cpp.o" \
 "CMakeFiles/opencv.dir/chap15_knnplane.cpp.o" \
+"CMakeFiles/opencv.dir/chap15_svmdigits.cpp.o" \
 "CMakeFiles/opencv.dir/chap15_svmplane.cpp.o" \
 "CMakeFiles/opencv.dir/chap4.cpp.o" \
 "CMakeFiles/opencv.dir/chap5.cpp.o" \
@@ -311,6 +325,7 @@ opencv: CMakeFiles/opencv.dir/chap13.cpp.o
 opencv: CMakeFiles/opencv.dir/chap14.cpp.o
 opencv: CMakeFiles/opencv.dir/chap15_knndigits.cpp.o
 opencv: CMakeFiles/opencv.dir/chap15_knnplane.cpp.o
+opencv: CMakeFiles/opencv.dir/chap15_svmdigits.cpp.o
 opencv: CMakeFiles/opencv.dir/chap15_svmplane.cpp.o
 opencv: CMakeFiles/opencv.dir/chap4.cpp.o
 opencv: CMakeFiles/opencv.dir/chap5.cpp.o
@@ -371,7 +386,7 @@ opencv: /usr/local/lib/libopencv_photo.4.2.0.dylib
 opencv: /usr/local/lib/libopencv_imgproc.4.2.0.dylib
 opencv: /usr/local/lib/libopencv_core.4.2.0.dylib
 opencv: CMakeFiles/opencv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable opencv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jeongjinho/vscode/opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable opencv"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

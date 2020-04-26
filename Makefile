@@ -329,6 +329,33 @@ chap15_knnplane.cpp.s:
 	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap15_knnplane.cpp.s
 .PHONY : chap15_knnplane.cpp.s
 
+chap15_svmdigits.o: chap15_svmdigits.cpp.o
+
+.PHONY : chap15_svmdigits.o
+
+# target to build an object file
+chap15_svmdigits.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap15_svmdigits.cpp.o
+.PHONY : chap15_svmdigits.cpp.o
+
+chap15_svmdigits.i: chap15_svmdigits.cpp.i
+
+.PHONY : chap15_svmdigits.i
+
+# target to preprocess a source file
+chap15_svmdigits.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap15_svmdigits.cpp.i
+.PHONY : chap15_svmdigits.cpp.i
+
+chap15_svmdigits.s: chap15_svmdigits.cpp.s
+
+.PHONY : chap15_svmdigits.s
+
+# target to generate assembly for a file
+chap15_svmdigits.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap15_svmdigits.cpp.s
+.PHONY : chap15_svmdigits.cpp.s
+
 chap15_svmplane.o: chap15_svmplane.cpp.o
 
 .PHONY : chap15_svmplane.o
@@ -602,6 +629,9 @@ help:
 	@echo "... chap15_knnplane.o"
 	@echo "... chap15_knnplane.i"
 	@echo "... chap15_knnplane.s"
+	@echo "... chap15_svmdigits.o"
+	@echo "... chap15_svmdigits.i"
+	@echo "... chap15_svmdigits.s"
 	@echo "... chap15_svmplane.o"
 	@echo "... chap15_svmplane.i"
 	@echo "... chap15_svmplane.s"

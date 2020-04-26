@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeongjinho/vscode/opencv/chap15_svmplane.cpp
+/Users/jeongjinho/vscode/opencv/chap15_svmdigits.cpp
 opencv2/opencv.hpp
 /Users/jeongjinho/vscode/opencv/opencv2/opencv.hpp
 iostream

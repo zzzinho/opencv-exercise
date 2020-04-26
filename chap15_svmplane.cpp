@@ -4,7 +4,7 @@
 using namespace std;
 using namespace cv;
 using namespace cv::ml;
-
+/*
 int main()
 {
     Mat train = Mat_<float>({8,2}, {
@@ -48,3 +48,4 @@ int main()
 
     return 0;
 }
+*/
