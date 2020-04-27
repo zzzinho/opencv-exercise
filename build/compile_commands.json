@@ -26,8 +26,23 @@
 },
 {
   "directory": "/Users/jeongjinho/vscode/opencv/build",
+  "command": "/usr/local/bin/g++-9   -isystem /usr/local/Cellar/opencv/4.2.0_3/include/opencv4  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/opencv.dir/chap15_knndigits.cpp.o -c /Users/jeongjinho/vscode/opencv/chap15_knndigits.cpp",
+  "file": "/Users/jeongjinho/vscode/opencv/chap15_knndigits.cpp"
+},
+{
+  "directory": "/Users/jeongjinho/vscode/opencv/build",
   "command": "/usr/local/bin/g++-9   -isystem /usr/local/Cellar/opencv/4.2.0_3/include/opencv4  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/opencv.dir/chap15_knnplane.cpp.o -c /Users/jeongjinho/vscode/opencv/chap15_knnplane.cpp",
   "file": "/Users/jeongjinho/vscode/opencv/chap15_knnplane.cpp"
+},
+{
+  "directory": "/Users/jeongjinho/vscode/opencv/build",
+  "command": "/usr/local/bin/g++-9   -isystem /usr/local/Cellar/opencv/4.2.0_3/include/opencv4  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/opencv.dir/chap15_svmdigits.cpp.o -c /Users/jeongjinho/vscode/opencv/chap15_svmdigits.cpp",
+  "file": "/Users/jeongjinho/vscode/opencv/chap15_svmdigits.cpp"
+},
+{
+  "directory": "/Users/jeongjinho/vscode/opencv/build",
+  "command": "/usr/local/bin/g++-9   -isystem /usr/local/Cellar/opencv/4.2.0_3/include/opencv4  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/opencv.dir/chap15_svmplane.cpp.o -c /Users/jeongjinho/vscode/opencv/chap15_svmplane.cpp",
+  "file": "/Users/jeongjinho/vscode/opencv/chap15_svmplane.cpp"
 },
 {
   "directory": "/Users/jeongjinho/vscode/opencv/build",
