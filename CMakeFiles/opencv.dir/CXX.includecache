@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/jeongjinho/vscode/opencv/chap15_svmdigits.cpp
+/Users/jeongjinho/vscode/opencv/chap16_classify.cpp
 opencv2/opencv.hpp
 /Users/jeongjinho/vscode/opencv/opencv2/opencv.hpp
 iostream

@@ -7,7 +7,7 @@ using namespace cv::ml;
 
 Ptr<SVM> train_hog_svm(const HOGDescriptor& hog);
 void on_mouse(int event, int x, int y, int flags, void* userdata);
-
+/*
 int main()
 {
 #if _DEBUG
@@ -97,3 +97,4 @@ void on_mouse(int event, int x, int y, int flags, void* userdata)
         imshow("img",img);
     }
 }
+*/

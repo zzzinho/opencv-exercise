@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/jeongjinho/vscode/opencv/chap15_knnplane.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap15_knnplane.cpp.o"
   "/Users/jeongjinho/vscode/opencv/chap15_svmdigits.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap15_svmdigits.cpp.o"
   "/Users/jeongjinho/vscode/opencv/chap15_svmplane.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap15_svmplane.cpp.o"
+  "/Users/jeongjinho/vscode/opencv/chap16_classify.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap16_classify.cpp.o"
+  "/Users/jeongjinho/vscode/opencv/chap16_dnnmnist.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap16_dnnmnist.cpp.o"
   "/Users/jeongjinho/vscode/opencv/chap4.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap4.cpp.o"
   "/Users/jeongjinho/vscode/opencv/chap5.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap5.cpp.o"
   "/Users/jeongjinho/vscode/opencv/chap6.cpp" "/Users/jeongjinho/vscode/opencv/CMakeFiles/opencv.dir/chap6.cpp.o"
