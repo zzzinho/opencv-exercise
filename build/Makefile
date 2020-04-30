@@ -383,6 +383,60 @@ chap15_svmplane.cpp.s:
 	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap15_svmplane.cpp.s
 .PHONY : chap15_svmplane.cpp.s
 
+chap16_classify.o: chap16_classify.cpp.o
+
+.PHONY : chap16_classify.o
+
+# target to build an object file
+chap16_classify.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap16_classify.cpp.o
+.PHONY : chap16_classify.cpp.o
+
+chap16_classify.i: chap16_classify.cpp.i
+
+.PHONY : chap16_classify.i
+
+# target to preprocess a source file
+chap16_classify.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap16_classify.cpp.i
+.PHONY : chap16_classify.cpp.i
+
+chap16_classify.s: chap16_classify.cpp.s
+
+.PHONY : chap16_classify.s
+
+# target to generate assembly for a file
+chap16_classify.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap16_classify.cpp.s
+.PHONY : chap16_classify.cpp.s
+
+chap16_dnnmnist.o: chap16_dnnmnist.cpp.o
+
+.PHONY : chap16_dnnmnist.o
+
+# target to build an object file
+chap16_dnnmnist.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap16_dnnmnist.cpp.o
+.PHONY : chap16_dnnmnist.cpp.o
+
+chap16_dnnmnist.i: chap16_dnnmnist.cpp.i
+
+.PHONY : chap16_dnnmnist.i
+
+# target to preprocess a source file
+chap16_dnnmnist.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap16_dnnmnist.cpp.i
+.PHONY : chap16_dnnmnist.cpp.i
+
+chap16_dnnmnist.s: chap16_dnnmnist.cpp.s
+
+.PHONY : chap16_dnnmnist.s
+
+# target to generate assembly for a file
+chap16_dnnmnist.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chap16_dnnmnist.cpp.s
+.PHONY : chap16_dnnmnist.cpp.s
+
 chap4.o: chap4.cpp.o
 
 .PHONY : chap4.o
@@ -635,6 +689,12 @@ help:
 	@echo "... chap15_svmplane.o"
 	@echo "... chap15_svmplane.i"
 	@echo "... chap15_svmplane.s"
+	@echo "... chap16_classify.o"
+	@echo "... chap16_classify.i"
+	@echo "... chap16_classify.s"
+	@echo "... chap16_dnnmnist.o"
+	@echo "... chap16_dnnmnist.i"
+	@echo "... chap16_dnnmnist.s"
 	@echo "... chap4.o"
 	@echo "... chap4.i"
 	@echo "... chap4.s"
